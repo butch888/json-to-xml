@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Вэб-агентство Web Monster: создание Landing Page, настройка контекстной рекламы, SEO-анализ, эффективный email-маркетинг." />
+
+  <link rel="stylesheet" href="./src/style.css">
+  <title>JSON to XML</title>
+</head>
+
+<body>
+  <div class="wrapper">
+
+    <header class="header">
+      <a class="header_link" href="https://github.com/butch888/json-to-xml" target="_blank">github.com</a>
+    </header>
+
+    <main>
+      <h1 class="title">Convert JSON to XML</h1>
+      <p class="describe">
+        JSON to XML converter converts your JSON data to its equivalent XML format. The JSON keys are converted
+        to XML elements and JSON values are transformed into element values. The tool supports attributes in XML
+        Element.
+        To convert, begin JSON key with "-" to indicate attributes and mention JSON key values using "#text" in JSON
+        data.
+      </p>
+      <div class="textarea-container">
+        <label for="json">JSON
+          <textarea class="textarea" name="json" id="json" title="Paste JSON here"
+            placeholder="Paste your JSON here."></textarea>
+        </label>
+        <label for="xml">XML
+          <textarea class="textarea" name="xml" id="xml" readonly></textarea>
+        </label>
+      </div>
+      <div class="button-container">
+        <button id="convertBtn" class="btn">Convert</button>
+        <button id="clearBtn" class="btn">Clear</button>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <p class="footer_text">Developer: Vladimir Miler</p>
+      <p class="footer_text">Telegram: @Vldks</p>
+    </footer>
+
+  </div>
+  <script src="./src/script.js"></script>
+</body>
+
+</html>

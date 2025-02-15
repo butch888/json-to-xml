@@ -1,0 +1,15 @@
+{
+  "name": "json-to-xml",
+  "version": "1.0.0",
+  "description": "JSON to XML converter converts your JSON data to its equivalent XML format.",
+  "main": "script.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "butch888",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "3.5.1"
+  }
+}
